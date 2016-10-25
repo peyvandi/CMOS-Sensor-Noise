@@ -67,7 +67,7 @@ select_patch = 19; % The white patch is selected
 
 ## License
 
-This project is licensed under the terms of - see [LICENSE.md](LICENSE.md) file for details.
+This project is released under the terms of the [MIT open-source license](https://github.com/peyvandi/light-energy-distribution-among-cells/blob/master/LICENSE).
 
 ## Acknowledgment
 
