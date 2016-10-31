@@ -51,14 +51,14 @@ We captured 180 _*.raw_ images of a small classic xrite colorchecker, uniformly 
 
 ### Prerequisites
 The required functions can be found in the *model_functions_eng_dist* folder. The sensor specifications files are stored in *sensor_data* folder.
-To analyze the captured _*.raw_ images, first download [*raw_images.tar.gz*](https://github.com/peyvandi/raw-image-files.git) and save to the *image_data* folder. Then, unzip the file to extract 180 _*.raw_ images (*exposure_50ms<#>.raw*). Example of a typical image file:
+To analyze the captured _*.raw_ images, first download [*Data_File.tar.gz*](https://github.com/peyvandi/raw-image-files.git) and save to the *image_data* folder. Then, unzip the file to extract 180 _*.raw_ images (*exposure_50ms<#>.raw*). Example of a typical image file:
 
 ```
 exposure_50ms0008.raw  (50ms is the exposure duration, 0008-th image)
 ```
 
 ### Demo
-Run the *demo_1_histogram_estimation.m* in the *sensor_model* folder. In this demo, the variable *no_of_image_analyzed* takes the total number of images for the analysis. You may choose an integer upto 180, which is the total number of images captured by a CMOS sensor, [*raw_images.tar.gz*](https://github.com/peyvandi/raw-image-files.git). The function *img_RAW_read_bayer()* reads **.raw* files from *image_data* folder. The variable *select_patch* takes an integer between 1 to 24, referring to patches of the color checker.
+Run the *demo_1_histogram_estimation.m* in the *sensor_model* folder. In this demo, the variable *no_of_image_analyzed* takes the total number of images for the analysis. You may choose an integer upto 180, which is the total number of images captured by a CMOS sensor, [*Data_File.tar.gz*](https://github.com/peyvandi/raw-image-files.git). The function *img_RAW_read_bayer()* reads **.raw* files from *image_data* folder. The variable *select_patch* takes an integer between 1 to 24, referring to patches of the color checker.
 
 ```
 no_of_image_analyzed = 10; % a total of 10 images will be analyzed
