@@ -24,7 +24,7 @@ Note : estimation of the pupil area from the stimulus luminance, in FIGURE_1_DEM
 
 ## Distribution of light energy among cone cells (cone excitations)
 
-In the *cone_excitations* folder, open and run *FIGURE_1_DEMO_MacAdam_Excitations_plt.m*. The required functions and data are all within the same folder. 
+In the *Code_File_1* folder, open and run *FIGURE_1_DEMO_MacAdam_Excitations_plt.m*. The required functions and data are all within the same folder. 
 
 ### Notes
 In this code, FWHM is the Full width at half maximum of the three Gaussian primaries, used to match the 25 MacAdam (1942) colors, centered at the wavelengths specified in lambda_prim. 
@@ -58,7 +58,7 @@ exposure_50ms0008.raw  (50ms is the exposure duration, 0008-th image)
 ```
 
 ### Demo
-Run the *demo_1_histogram_estimation.m* in the *sensor_model* folder. In this demo, the variable *no_of_image_analyzed* takes the total number of images for the analysis. You may choose an integer upto 180, which is the total number of images captured by a CMOS sensor, [*Data_File.tar.gz*](https://github.com/peyvandi/raw-image-files.git). The function *img_RAW_read_bayer()* reads **.raw* files from *image_data* folder. The variable *select_patch* takes an integer between 1 to 24, referring to patches of the color checker.
+Run the *demo_1_histogram_estimation.m* in the *Code_File_2* folder. In this demo, the variable *no_of_image_analyzed* takes the total number of images for the analysis. You may choose an integer upto 180, which is the total number of images captured by a CMOS sensor, [*Data_File.tar.gz*](https://github.com/peyvandi/raw-image-files.git). The function *img_RAW_read_bayer()* reads **.raw* files from *image_data* folder. The variable *select_patch* takes an integer between 1 to 24, referring to patches of the color checker.
 
 ```
 no_of_image_analyzed = 10; % a total of 10 images will be analyzed
