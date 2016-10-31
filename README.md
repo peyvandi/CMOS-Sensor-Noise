@@ -1,7 +1,7 @@
 # light-energy-distribution-among-cells
 **Distribution of Photon Energy among a Population of Interleaved Photoreceptors**
 
-**AUTHORS:** Peyvandi, S.<sup>1</sup>, Ekr{&#248}ll, V.<sup>2</sup>, and Gilchrist, A.<sup>1</sup>
+**AUTHORS:** Peyvandi, S.<sup>1</sup>, Ekrøll, V.<sup>2</sup>, and Gilchrist, A.<sup>1</sup>
 
 1- Department of Psychology, Rutgers, The State University of New Jersey, Newark, New Jersey 07102, USA <br>
 2- Laboratory of Experimental Psychology, University of Leuven (KU Leuven), Belgium
