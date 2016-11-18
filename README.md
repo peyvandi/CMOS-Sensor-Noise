@@ -47,7 +47,7 @@ CIE_Judd_chromaticity([0.35 0.45 0.2], 0.01)
 ## Distribution of light energy among pixels of a sensor
 
 ### Materials
-We captured 180 _*.raw_ images of a small classic xrite colorchecker, uniformly illuminated with a 1000 W quartz-halogen light bulb, using [AR0835HS 1/3.2" 8-megapixel CMOS digital sensor](http://www.onsemi.com/pub_link/Collateral/AR0835HS-D.PDF), manufactured by Aptina-ON Semiconductor. The spectral quantum efficiency functions of the sensor were digitized from the plot [(see p. 55)](http://www.onsemi.com/pub_link/Collateral/AR0835HS-D.PDF). The imaging device has a [SUNEX DSL945D-650 lens](http://www.optics-online.com/OOL/DSL/DSL945.PDF) with IR cuttoff filter. 
+We captured 180 _*.raw_ images of a small classic xrite colorchecker, uniformly illuminated with a 1000 W quartz-halogen light bulb, using [AR0835HS 1/3.2" 8-megapixel CMOS digital sensor](http://www.onsemi.com/pub_link/Collateral/AR0835HS-D.PDF), manufactured by Aptina-ON Semiconductor. The spectral quantum efficiency functions of the sensor were digitized from the QE plot accessible on-line at the manufacturer [public link](http://www.onsemi.com/pub_link/Collateral/AR0835HS-D.PDF#page=55). The imaging device has a [SUNEX DSL945D-650 lens](http://www.optics-online.com/OOL/DSL/DSL945.PDF) with IR cuttoff filter. 
 
 ### Prerequisites
 The required functions can be found in the *model_functions_eng_dist* folder. The sensor specifications files are stored in *sensor_data* folder.
