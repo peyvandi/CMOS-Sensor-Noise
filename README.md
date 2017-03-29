@@ -1,5 +1,5 @@
-# light-energy-distribution-among-cells
-**Distribution of Photon Energy among a Population of Interleaved Photoreceptors**
+# CMOS-Sensor-Noise
+**Characterization of Spatiotemporal Fluctuation in a CMOS Sensor **
 
 **AUTHORS:** Peyvandi, S.<sup>1</sup>, Ekroll, V.<sup>2</sup>, and Gilchrist, A.<sup>1</sup>
 
@@ -7,42 +7,11 @@
 2- Laboratory of Experimental Psychology, University of Leuven (KU Leuven), Belgium
 
 ## Background
-The actual number of photons absorbed in a photosensitive element (photoreceptor or sensor pixel) varies with Poisson fluctuation when the element is exposed to a photon flux of a particular wavelength. When an array of photoreceptors is exposed to multi-wavelength light energy, this photon fluctuation introduces a spatial variation in absorption by individual cells and a temporal variation in the number of cells at a given energy level. We propose a model to characterize such spatiotemporal variations in individual cells absorption. The performance of the model is evaluated by a CMOS sensor exposed repeatedly to a uniformly illuminated color patch. 
+The actual number of photons absorbed by a sensor pixel varies with Poisson fluctuation. When an array of pixels is exposed to light energy, this photon fluctuation introduces a spatial variation in the output signals by individual pixels and a temporal variation in the number of pixels at a given digital count. We propose a model to characterize such spatiotemporal variations in a CMOS sensor exposed repeatedly to a uniformly illuminated color checker. 
 
 ## Introduction to the code
-This is a repository for estimating the histogram of absorbed light energy by individual like-type cells (pixels) of a particular type (class or channel) (e.g. R, G, B pixels or L-, M-, S-cones).  
+This is a repository for the MATLAB codes to estimate the spatial variation in digital counts in a CMOS sensor. The temporal fluctuation of the histogram itself is characterized by temporal variation with repeated exposure.
 
-
-### Prerequisites
-You need MATLAB program installed. You may need to have "Psychtoolbox-3" functions installed (see [psychtoolbox](http://psychtoolbox.org/)).
-
-Note : estimation of the pupil area from the stimulus luminance, in FIGURE_1_DEMO_MacAdam_Excitations_plt.m, calls a function from Psychtoolbox. 
-
-```
-[~ , pupil_area, ~] = PupilDiameterFromLum(stimulus_luminance)
-```
-
-## Distribution of light energy among cone cells (cone excitations)
-
-In the *Code_File_1* folder, open and run *FIGURE_1_DEMO_MacAdam_Excitations_plt.m*. The required functions and data are all within the same folder. 
-
-### Notes
-In this code, FWHM is the Full width at half maximum of the three Gaussian primaries, used to match the 25 MacAdam (1942) colors, centered at the wavelengths specified in lambda_prim. 
-
-```
-FWHM = 65; lambda_prim = [450, 530, 655];
-```
-### Plots
-The function *macLeod_boynton_chromaticity()* plots points within the MacLeod-Boynton (1979) excitation space.
-
-```
-macLeod_boynton_chromaticity([10, 5, 4], 0.001); (0.001 defines the size of a point within the plot).
-```
-The function *CIE_Judd_chromaticity()* plots points within the Judd-Vos modified CIE 1931 chromaticity space (Vos, 1978).
-
-```
-CIE_Judd_chromaticity([0.35 0.45 0.2], 0.01)
-```
 
 ## Distribution of light energy among pixels of a sensor
 
