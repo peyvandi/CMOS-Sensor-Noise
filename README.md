@@ -1,5 +1,5 @@
 # CMOS-Sensor-Noise
-**Characterization of Spatiotemporal Fluctuation in a CMOS Sensor **
+**Characterization of Spatiotemporal Fluctuation in a CMOS Sensor**
 
 **AUTHORS:** Peyvandi, S.<sup>1</sup>, Ekroll, V.<sup>2</sup>, and Gilchrist, A.<sup>1</sup>
 
